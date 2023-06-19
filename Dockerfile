@@ -1,4 +1,4 @@
-FROM adoptopenjdk:17-jre-hotspot
+FROM adoptopenjdk:8-jre-hotspot
 WORKDIR /app
 COPY ./target/maven-wrapper.jar app.jar
 EXPOSE 8080
